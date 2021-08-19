@@ -5,7 +5,7 @@ using System.Text;
 
 namespace todolucho.Functions.Entities
 {
-    public class TodoEntities : TableEntity
+    public class TodoEntity : TableEntity
     {
         public DateTime CreateTime { get; set; }
         public string TaskDescription { get; set; }
